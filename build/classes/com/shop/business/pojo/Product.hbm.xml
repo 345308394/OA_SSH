@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2017-12-31 12:42:07 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.shop.business.pojo.Product" table="PRODUCT">
+        <id name="id" type="java.lang.Integer" access="field">
+            <column name="ID" />
+            <generator class="native" />
+        </id>
+        <property name="ProductName" type="java.lang.String">
+            <column name="PRODUCTNAME" />
+        </property>
+        <property name="ProductType" type="java.lang.String">
+            <column name="PRODUCTTYPE" />
+        </property>
+        <property name="ProductNum" type="int">
+            <column name="PRODUCTNUM" />
+        </property>
+        <property name="MarketPrice" type="float">
+            <column name="MARKETPRICE" />
+        </property>
+        <property name="WebPrice" type="float">
+            <column name="WEBPRICE" />
+        </property>
+        <property name="ProductDec" type="java.lang.String">
+            <column name="PRODUCTDEC" />
+        </property>
+        <property name="pubTime" type="java.util.Date">
+            <column name="PUBTIME" />
+        </property>
+        <property name="ProductOn" type="java.lang.String" access="field">
+            <column name="PRODUCTON" />
+        </property>
+    </class>
+</hibernate-mapping>

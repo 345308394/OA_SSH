@@ -1,0 +1,23 @@
+body{
+ 
+     background-image:url("../img/bg.jpg"); 
+     background-repeat:no-repeat; 
+     background-size:100% 100%;
+     -moz-background-size:100% 100%;
+     z-index:-99999;
+}
+
+.moreShare
+		{
+			width: 55px;position: fixed;bottom: 248px;right: 40px;background-color: #6fb6fd;inline-block;z-index: 100;
+			font-family: arial,tahoma,'Microsoft Yahei','\5b8b\4f53',sans-serif;
+		}
+<!--分享样式-->
+.side-bar {background-image: url(img/rightSideIcon.png) no-repeat;} 
+.side-bar {width: 55px;position: fixed;bottom: 20px;right: 40px;font-size: 0;line-height: 0;z-index: 100;} 
+.side-bar a {width: 55px;height: 55px;display: inline-block;background-color: #ddd;margin-bottom: 2px;} 
+.side-bar a:hover {background-color: #669fdd;} 
+.side-bar .icon-qq {background-position: 0 -62px;} 
+.side-bar .icon-qzone {background-position: 0 -130px;position: relative;} 
+.side-bar .icon-blog {background-position: 0 -198px;} 
+.side-bar .icon-wechat {background-position: 0 -266px;} 

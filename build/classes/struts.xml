@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+	<!--登录模块-->
+    <package name="login"  namespace="/admin"  extends="struts-default">
+    	<action name="login"
+    		class="com.shop.login.action.LoginAction">
+    		<result name="success">/admin/index.jsp</result>
+    		<result name="input">/admin/login.jsp</result>
+    	</action>
+    </package>
+    
+    <package name="findUser"  namespace="/admin"  extends="struts-default">
+    	<action name="findUser"
+    		class="com.shop.business.action.findUserAction">
+    		<result name="success">/admin/findUserIndex.jsp</result>
+    	</action>
+    </package>
+    
+    <package name="saveProduct"  namespace="/admin"  extends="struts-default">
+    	<action name="saveProduct"
+    		class="com.shop.business.action.saveProductAction">
+    		<result name="success" type="redirectAction">ProductList.action</result>
+    	</action>
+    </package>
+    
+    
+     <package name="ProductList"  namespace="/admin"  extends="struts-default">
+    	<action name="ProductList"
+    		class="com.shop.business.action.ProductListAction">
+    		<result name="success">/admin/ProductList.jsp</result>
+    	</action>
+    </package>
+    
+    <package name="orderList"  namespace="/admin"  extends="struts-default">
+    	<action name="orderList"
+    		class="com.shop.business.action.orderListAction">
+    		<result name="success">/admin/findOrderIndex.jsp</result>
+    	</action>
+    </package>
+    
+    
+   
+
+</struts>
