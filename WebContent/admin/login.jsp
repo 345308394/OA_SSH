@@ -129,7 +129,7 @@
 									
 									<div id="loginBottomAlert" class="alert alert-success" style="text-align: center;font-size: 15px; margin-top:40px;">
 									    <a href="#" class="close" data-dismiss="alert">&times;</a>
-											<strong> 欢迎使用您使用在线购物平台:默认用户名：admin,默认密码：123456</strong>   
+											<strong> 欢迎使用您使用在线购物平台:默认用户名：王兆信,默认密码：123456</strong>   
 									</div>
 			
 			    				</div><!--well标签结束-->

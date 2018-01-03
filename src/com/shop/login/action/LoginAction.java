@@ -7,23 +7,23 @@ import com.opensymphony.xwork2.ActionContext;
 import com.shop.core.action.BaseAction;
 
 public class LoginAction  extends BaseAction{
-	//	考号
+	//	鑰冨彿
 	private String studentNo;
-	//用户名
+	//鐢ㄦ埛鍚�
 	private String userName;
-	//	姓名
+	//	濮撳悕
 	private String name;
-	//	密码
+	//	瀵嗙爜
 	private String password;
-	//	登录时间
+	//	鐧诲綍鏃堕棿
 	private String loginTime;
-	//	用户service
+	//	鐢ㄦ埛service
 	
-	//	管理员登录
+	//	绠＄悊鍛樼櫥褰�
 	@SuppressWarnings("unchecked")
 	public String login()
 	{
-		if ("admin".equals(userName)&&"123456".equals(password)) {
+		if ("王兆信".equals(userName)&&"123456".equals(password)) {
 			
 			ActionContext context=ActionContext.getContext();
 			Date loginTime=new Date();

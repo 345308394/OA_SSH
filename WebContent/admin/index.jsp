@@ -75,8 +75,7 @@
                         <ul class="nav navbar-nav pull-right">
                             <li class="dropdown">
                                 <a href="#" data-toggle="dropdown">
-                                    <img class="user-avatar" src="assets/img/avatars/48.jpg" alt="admin">
-                                    	丁夫笑&nbsp;Boss
+                                    	${sessionScope.CURRENT_USER.userName}&nbsp;
                                 </a>
                             </li>
                             <li class="dropdown">
